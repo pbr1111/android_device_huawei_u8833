@@ -20,10 +20,6 @@ Use the following local manifest:
 	<project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" revision="jellybean" />
 	<project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="jellybean" />
 	
-	<!-- QCom legacy -->
-	<project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="jellybean-mr2" />
-	<project name="Dazzozo/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="jellybean-mr2" />
-
 	<!-- WiFi -->
 	<project name="legaCyMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" revision="jellybean" />
 	<project name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" path="hardware/atheros/wifi/ath6kl-huawei" revision="master" />
