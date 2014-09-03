@@ -10,15 +10,27 @@ Initialise from CyanogenMod:
 Use the following local manifest:
 
     <?xml version="1.0" encoding="UTF-8"?>
-    <manifest>
-    <project name="Kra1o5/android_device_huawei_u8833" path="device/huawei/u8833" revision="jellybean" />
-    <project name="Kra1o5/android_kernel_huawei_msm8x25-common" path="kernel/huawei/u8833" revision="jb" />
-    <project name="Kra1o5/proprietary_vendor_huawei" path="vendor/huawei" revision="jellybean" />
+	<manifest>
+	<remove-project name="CyanogenMod/android_vendor_cm" />
+	<project name="pbr1111/android_device_huawei_u8833" path="device/huawei/u8833" revision="jellybean" />
+	<project name="pbr1111/android_kernel_huawei_msm8x25-common" path="kernel/huawei/u8833" revision="jb" />
+	<project name="pbr1111/proprietary_vendor_huawei" path="vendor/huawei" revision="jellybean" />
 
-    <!-- FM Radio -->
-    <project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" revision="jellybean" />
-    <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="jellybean" />
-    </manifest>
+	<!-- FM Radio -->
+	<project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" revision="jellybean" />
+	<project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="jellybean" />
+	
+	<!-- QCom legacy -->
+	<project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="jellybean-mr2" />
+	<project name="Dazzozo/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="jellybean-mr2" />
+
+	<!-- WiFi -->
+	<project name="legaCyMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" revision="jellybean" />
+	<project name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" path="hardware/atheros/wifi/ath6kl-huawei" revision="master" />
+
+	<!-- CM Vendor --> 
+	<project name="pbr1111/android_vendor_cm" path="vendor/cm" revision="jellybean" />
+	</manifest>
 
 Sync and build:
 
