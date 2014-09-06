@@ -113,7 +113,6 @@
                    channels="1" />
 
         </EncoderProfile>
-
         <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="5000000"
@@ -150,7 +149,7 @@
         <ImageEncoding quality="90" />
         <ImageEncoding quality="80" />
         <ImageEncoding quality="70" />
-        <ImageDecoding memCap="20000000" />
+        <ImageDecoding memCap="40000000" />
 
         <Camera previewFrameRate="0" />
 
@@ -232,7 +231,7 @@
         <ImageEncoding quality="90" />
         <ImageEncoding quality="80" />
         <ImageEncoding quality="70" />
-        <ImageDecoding memCap="20000000" />
+        <ImageDecoding memCap="40000000" />
 
         <Camera previewFrameRate="0" />
 
