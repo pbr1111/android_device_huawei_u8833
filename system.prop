@@ -63,6 +63,7 @@ ro.telephony.call_ring.multiple=false
 ro.telephony.ril_class=HuaweiQualcommRIL
 ro.telephony.ril.v3=qcomdsds,skippinpukcount
 gsm.version.baseband=2030
+ro.ril.transmitpower=true
 
 # USB
 persist.sys.usb.config=mtp,adb
