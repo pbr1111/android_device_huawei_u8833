@@ -90,7 +90,7 @@
         <item>1</item>
         <item>5</item>
         <item>7</item>
-	<item>9</item>
+        <item>9</item>
     </integer-array>
 
     <!-- Boolean indicating whether Softap requires reloading AP firmware -->     
